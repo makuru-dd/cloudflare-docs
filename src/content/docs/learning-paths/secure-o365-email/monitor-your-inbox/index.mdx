@@ -1,10 +1,27 @@
 ---
-title: Monitor your inbox
+title: Monitor your email activity
 pcx_content_type: overview
 sidebar:
-  order: 6
+  order: 5
 ---
 
-Once you have fully deployed Email Security, there is limited tuning and configuration work. 
+To access an overview of your account, total number of emails processed, a breakdown of types of threads detected, among other types of information:
 
-Monitor detections, submit any potential misses and leverage PhishGuard to ensure a seamless experience. 
+1. Log in to [Zero Trust.](https://one.dash.cloudflare.com/)
+2. Select **Email Security**.
+
+Under **Email Security**, select **Monitoring**.
+
+The dashboard will display the following metrics:
+
+- Email activity
+- [Disposition evaluation](/cloudflare-one/email-security/reference/dispositions-and-attributes/)
+- Detection details
+- [Impersonations](/cloudflare-one/email-security/detection-settings/impersonation-registry/)
+- [Phish submissions](/cloudflare-one/insights/email-monitoring/phish-submissions/)
+- [Auto-move events](/cloudflare-one/email-security/auto-moves/)
+- [Detection settings metrics](/cloudflare-one/email-security/detection-settings/)
+
+Email activity aggregates statistics about emails scanned and dispositions assigned (the number of email flagged due to a detection) within a given timeframe.
+
+To view the live number of email scanned and dispositions scanned, enable **Live mode**.
