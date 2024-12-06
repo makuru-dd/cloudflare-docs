@@ -7,7 +7,7 @@ sidebar:
 
 D1 allows you to import existing SQLite tables and their data directly, enabling you to migrate existing data into D1 quickly and easily. This can be useful when migrating applications to use Workers and D1, or when you want to prototype a schema locally before importing it to your D1 database(s).
 
-D1 also allows you to export a database. This can be useful for [local development](/d1/build-with-d1/local-development/) or testing.
+D1 also allows you to export a database. This can be useful for [local development](/d1/best-practices/local-development/) or testing.
 
 ## Import an existing database
 
@@ -194,9 +194,9 @@ VALUES
 
 ## Foreign key constraints
 
-When importing data, you may need to temporarily disable [foreign key constraints](/d1/build-with-d1/foreign-keys/). To do so, call `PRAGMA defer_foreign_keys = true` before making changes that would violate foreign keys.
+When importing data, you may need to temporarily disable [foreign key constraints](/d1/best-practices/foreign-keys/). To do so, call `PRAGMA defer_foreign_keys = true` before making changes that would violate foreign keys.
 
-Refer to the [foreign key documentation](/d1/build-with-d1/foreign-keys/) to learn more about how to work with foreign keys and D1.
+Refer to the [foreign key documentation](/d1/best-practices/foreign-keys/) to learn more about how to work with foreign keys and D1.
 
 ## Next Steps
 
