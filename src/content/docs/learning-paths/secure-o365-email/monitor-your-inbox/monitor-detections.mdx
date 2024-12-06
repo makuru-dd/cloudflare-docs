@@ -5,13 +5,13 @@ sidebar:
   order: 2
 ---
 
-Spam and Malicious emails are blocked outright by Email Security, but suspicious and spoof dispositions should be monitored. Suspicious messages should be investigated by a security analyst to determine the legitimacy of the message. 
+Spam and Malicious emails are blocked outright by Email Security, but Suspicious and Spoof dispositions should be monitored. Suspicious messages should be investigated by a security analyst to determine the legitimacy of the message. 
 
 [PhishGuard](/cloudflare-one/email-security/phish-guard/) (Cloudflare's managed email security service) can review these messages for you and move them from the end user inbox if they are deemed malicious. 
 
-Messages that receive a Spoof disposition should be investigated as well because it signals that the traffic is either non-compliant with your email authentication process [SPF](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-spf-record/), [DKIM](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-dkim-record/), [DMARC](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-dmarc-record/), or has a mismatching Envelope From and Header From value.  
+Messages that receive a Spoof disposition should be investigated because it signals that the traffic is either non-compliant with your email authentication process [SPF](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-spf-record/), [DKIM](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-dkim-record/), [DMARC](https://www.cloudflare.com/en-gb/learning/dns/dns-records/dns-dmarc-record/), or has a mismatching Envelope From and Header From value.  
 
-In most cases, this disposition is triggered by a legitimate third-party mail service. If you determine that the Spoofed email is a legitimate business use case, you can either:
+In most cases, a Spoof disposition is triggered by a legitimate third-party mail service. If you determine that the Spoofed email is a legitimate business use case, you can either:
 
 - Update your email authentication records.
 - Add an acceptable sender [allow policy](/cloudflare-one/email-security/detection-settings/allow-policies/) to exempt messages from the Spam, Spoof or Bulk disposition, but not Malicious or Suspicious, so the content of the message can still be monitored. 
@@ -20,7 +20,7 @@ In most cases, this disposition is triggered by a legitimate third-party mail se
 
 Email Security offers a variety of ways for you to better examine and understand your message traffic:
 
-You can search for emails that have been processed by Email Security, whether they are marked with a[ detection disposition](/email-security/reference/dispositions-and-attributes/) or not.
+You can search for emails that have been processed by Email Security, whether they are marked with a [detection disposition](/email-security/reference/dispositions-and-attributes/) or not.
 
 There are three ways for searching emails:
 
