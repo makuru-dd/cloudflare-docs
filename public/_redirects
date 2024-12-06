@@ -258,7 +258,6 @@
 /constellation/ /workers-ai/ 301
 
 # D1
-/d1/d1-api/ /d1/rest-api/d1-api/ 301
 /d1/client-api/ /d1/worker-api/ 301
 /d1/build-with-d1/d1-client-api/ /d1/worker-api/ 301
 /d1/learning/using-d1-from-pages/ /pages/functions/bindings/#d1-databases 301
@@ -281,7 +280,7 @@
 /d1/reference/client-api/ /d1/worker-api/ 301
 /d1/reference/environments/ /d1/configuration/environments/ 301
 /d1/reference/metrics-analytics/ /d1/observability/metrics-analytics/ 301
-/d1/reference/wrangler-commands/ / /d1/rest-api/wrangler-commands/ 301
+/d1/reference/wrangler-commands/ / /d1/wrangler-commands/ 301
 /d1/how-to/ /d1/build-with-d1/ 301
 /d1/how-to/query-databases/ /d1/build-with-d1/query-d1/ 301
 /d1/how-to/using-indexes/ /d1/build-with-d1/use-indexes/ 301
